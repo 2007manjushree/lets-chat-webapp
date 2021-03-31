@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Lets Chat Web App</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>4
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="col-lg-10 col-md-6 col-sm-6 col-xs-3 info-back-div">
+            <div class="wrtiting-info-back">
+                <img src="logo.jpg" class="img-responsive logo">
+                <h2>Lets Chat Web App</h2>
+                <h4>Join the Community Now!</h4>
+                <p>Here you can chat with all the children and teachers in the school and <br>discuss topics and ask questions about different events.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-2 login-div">
+            <h2>Sign Up</h2>
+            <p>You can login in and sign up to this community place so you can be a part and discuss and ask question to rest of the school.</p>
+            <input type="text" class="input-box" id="username_input" placeholder="Enter Username">
+            <button id="login-button" class="btn btn-danger button" onclick="login()">Login In</button>
+        </div>
+    </center>
+    <script src="login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.info-back-div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60%;
+    text-align: right;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    position: absolute;
+    z-index: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrtiting-info-back {
+    float: right;
+    text-align: center;
+    color: white;
+    font-family: 'Langar', cursive;
+    line-height: 200%;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 100%;
+    display: inline;
+}
+
+.login-div {
+    background-color: white;
+    height: 85%;
+    z-index: 100px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 35%;
+    padding: 3%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.login-div h2 {
+    font-family: 'Langar', cursive;
+    float: left;
+    font-size: 45px;
+}
+
+.login-div p {
+    font-family: 'Langar', cursive;
+    margin-top: 30%;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+
+#login-button{
+    margin-top: 15%;
+    width: 30%;
+}
+
+.input-box {
+    padding: 5px;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 80%;
+    height: 7%;
+}
+
+.button {
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#logout {
+    float: right;
+    margin-top: 2%;
+    width: 13%;
+    font-family: 'Mukta', sans-serif;
+}
+
+.username_display{
+    float: left !important;
+    color: white;
+    margin-top: 2%;
+    display: inline;
+    padding: 0.5%;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5%
+}
+
+.username{
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+    float: left;
+    margin-right: 7px;
+}
+
+#pfp{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.heading h1{
+    margin-left: 25%;
+    font-family: 'Langar', cursive;
+    font-size: 60px;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+.heading img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.newroom{
+    background-color: white;
+    text-align: center;
+    padding: 1.5%;
+    position: absolute;
+    z-index: 50px;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.newroom input{
+    margin-bottom: 10%;
+}
+
+#newroom_button {
+    width: 40%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+}
+
+#rooms {
+    float: right;
+    text-align: center;
+}
+
+#rooms h3{
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#output {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.room_name_list{
+    text-align: center;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.input_message{
+    background-color: white;
+    z-index: 100px;
+    text-align: center;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 50%;
+    bottom: 0px;
+    margin-bottom: 2%;
+    position: fixed;
+    align-self: center;
+    left: 27%;
+
+}
+
+.input_message input{
+    margin-right: 20px;
+}
+
+.user_tick{
+    width: 20px;
+    height: 20px;
+}
+
+.likes{
+    padding: 5px;
+}
